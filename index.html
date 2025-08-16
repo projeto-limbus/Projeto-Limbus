@@ -100,8 +100,10 @@ Tilda`;
         content.innerHTML =
           "Download do áudio autorizado:<br><a href='corvus_audio.wav' download style='color:#00FF41'>Clique aqui para baixar o arquivo de áudio</a>";
       } else if (password === 'CANCORVOS07') {
-        content.innerHTML =
-          "A canção começa a ecoar nos limites do terminal:<br><audio controls><source src='Canção dos corvos relatorio.mp3' type='audio/mpeg'>Seu navegador não suporta áudio.</audio>";
+      <audio controls>
+  <source src="cancao_corvos.mp3" type="audio/mpeg">
+  Seu navegador não suporta áudio.
+</audio>
       } else {
         content.textContent = 'Senha incorreta. Tente novamente.';
       }
